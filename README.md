@@ -46,7 +46,7 @@ Manages courses, students, and instructors.
 3. **Install the required packages:**
 
     ```bash
-    pip install django
+    pip install -r requirements.txt
     ```
 
 4. **Create and apply migrations:**
