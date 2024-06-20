@@ -32,7 +32,7 @@ Manages courses, students, and instructors.
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Colline-Ssekiwala/Code3Camp
     cd Code3CampProject
     ```
 
