@@ -47,6 +47,8 @@ def course_delete(request, pk):
         return redirect('course_list')
     return render(request, 'app2/course_confirm_delete.html', {'course': course})
 
+def course_detail(request, pk):
+    course = get_object_or_404(Course, pk=pk)
+    return render(request, 'app2/course_detail.html', {'course': course})
 
-# Similar views for Student and Instructor would be created here
 
